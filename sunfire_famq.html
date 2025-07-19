@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Sunfire FAMQ | GTA 5 RP</title>
+  <style>
+    /* Анимации */
+    @keyframes fade-in {
+      0% { opacity: 0; transform: scale(0.98); }
+      100% { opacity: 1; transform: scale(1); }
+    }
+
+    @keyframes slide-up {
+      0% { opacity: 0; transform: translateY(30px); }
+      100% { opacity: 1; transform: translateY(0); }
+    }
+
+    @keyframes pulse {
+      0% { box-shadow: 0 0 15px #ff4c00aa; }
+      50% { box-shadow: 0 0 25px #ff4c00ee; }
+      100% { box-shadow: 0 0 15px #ff4c00aa; }
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #121212;
+      color: #f0f0f0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      text-align: center;
+      animation: fade-in 1.2s ease-out;
+    }
+
+    h1 {
+      font-size: 3rem;
+      color: #ff4c00;
+      margin-bottom: 0.2em;
+      animation: slide-up 1s ease-out;
+    }
+
+    h2 {
+      font-size: 2rem;
+      color: #ffd700;
+      margin-top: 0;
+      margin-bottom: 1.5em;
+      animation: slide-up 1.2s ease-out;
+    }
+
+    a.join-btn {
+      display: inline-block;
+      padding: 15px 30px;
+      font-size: 1.5rem;
+      background-color: #ff4c00;
+      color: white;
+      text-decoration: none;
+      border-radius: 10px;
+      box-shadow: 0 0 15px #ff4c00aa;
+      transition: background-color 0.3s, box-shadow 0.3s, transform 0.2s;
+    }
+
+    a.join-btn:hover {
+      background-color: #e04300;
+      box-shadow: 0 0 25px #ff4c00ee;
+      animation: pulse 1.2s infinite;
+      transform: scale(1.05);
+    }
+
+    footer {
+      position: absolute;
+      bottom: 10px;
+      font-size: 0.9rem;
+      color: #555;
+      animation: fade-in 2s ease-out;
+    }
+  </style>
+</head>
+<body>
+  <h1>Sunfire FAMQ</h1>
+  <h2>Murrieta</h2>
+  <a class="join-btn" href="https://discord.gg/H75amPTpSd" target="_blank" rel="noopener noreferrer">Присоединиться</a>
+  <footer>© 2025 Sunfire FAMQ GTA 5 RP</footer>
+</body>
+</html>
